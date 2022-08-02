@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/elrond-my-nfts-collection-dapp/static/css/main.c88f1bbb.chunk.css",
-    "main.js": "/elrond-my-nfts-collection-dapp/static/js/main.56a95d9b.chunk.js",
-    "main.js.map": "/elrond-my-nfts-collection-dapp/static/js/main.56a95d9b.chunk.js.map",
+    "main.js": "/elrond-my-nfts-collection-dapp/static/js/main.7e317d5c.chunk.js",
+    "main.js.map": "/elrond-my-nfts-collection-dapp/static/js/main.7e317d5c.chunk.js.map",
     "runtime-main.js": "/elrond-my-nfts-collection-dapp/static/js/runtime-main.004b7663.js",
     "runtime-main.js.map": "/elrond-my-nfts-collection-dapp/static/js/runtime-main.004b7663.js.map",
     "static/js/2.c7ae766e.chunk.js": "/elrond-my-nfts-collection-dapp/static/js/2.c7ae766e.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.004b7663.js",
     "static/js/2.c7ae766e.chunk.js",
     "static/css/main.c88f1bbb.chunk.css",
-    "static/js/main.56a95d9b.chunk.js"
+    "static/js/main.7e317d5c.chunk.js"
   ]
 }
