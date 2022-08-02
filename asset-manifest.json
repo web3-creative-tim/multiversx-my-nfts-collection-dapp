@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/elrond-my-nfts-from-collection-dapp/static/css/main.73d3f17c.chunk.css",
-    "main.js": "/elrond-my-nfts-from-collection-dapp/static/js/main.56a95d9b.chunk.js",
-    "main.js.map": "/elrond-my-nfts-from-collection-dapp/static/js/main.56a95d9b.chunk.js.map",
-    "runtime-main.js": "/elrond-my-nfts-from-collection-dapp/static/js/runtime-main.6e406880.js",
-    "runtime-main.js.map": "/elrond-my-nfts-from-collection-dapp/static/js/runtime-main.6e406880.js.map",
-    "static/js/2.82690db7.chunk.js": "/elrond-my-nfts-from-collection-dapp/static/js/2.82690db7.chunk.js",
-    "static/js/2.82690db7.chunk.js.map": "/elrond-my-nfts-from-collection-dapp/static/js/2.82690db7.chunk.js.map",
-    "index.html": "/elrond-my-nfts-from-collection-dapp/index.html",
-    "static/css/main.73d3f17c.chunk.css.map": "/elrond-my-nfts-from-collection-dapp/static/css/main.73d3f17c.chunk.css.map",
-    "static/js/2.82690db7.chunk.js.LICENSE.txt": "/elrond-my-nfts-from-collection-dapp/static/js/2.82690db7.chunk.js.LICENSE.txt",
-    "static/media/bg-header.d80912b8.png": "/elrond-my-nfts-from-collection-dapp/static/media/bg-header.d80912b8.png",
-    "static/media/bg-header.e1c0b84b.jpg": "/elrond-my-nfts-from-collection-dapp/static/media/bg-header.e1c0b84b.jpg",
-    "static/media/custom.scss": "/elrond-my-nfts-from-collection-dapp/static/media/web.57f728b8.svg",
-    "static/media/hand-love.21c0d706.png": "/elrond-my-nfts-from-collection-dapp/static/media/hand-love.21c0d706.png",
-    "static/media/logo.6f267daa.jpg": "/elrond-my-nfts-from-collection-dapp/static/media/logo.6f267daa.jpg",
-    "static/media/sad.7397a352.svg": "/elrond-my-nfts-from-collection-dapp/static/media/sad.7397a352.svg"
+    "main.css": "/elrond-my-nfts-collection-dapp/static/css/main.c88f1bbb.chunk.css",
+    "main.js": "/elrond-my-nfts-collection-dapp/static/js/main.56a95d9b.chunk.js",
+    "main.js.map": "/elrond-my-nfts-collection-dapp/static/js/main.56a95d9b.chunk.js.map",
+    "runtime-main.js": "/elrond-my-nfts-collection-dapp/static/js/runtime-main.004b7663.js",
+    "runtime-main.js.map": "/elrond-my-nfts-collection-dapp/static/js/runtime-main.004b7663.js.map",
+    "static/js/2.c7ae766e.chunk.js": "/elrond-my-nfts-collection-dapp/static/js/2.c7ae766e.chunk.js",
+    "static/js/2.c7ae766e.chunk.js.map": "/elrond-my-nfts-collection-dapp/static/js/2.c7ae766e.chunk.js.map",
+    "index.html": "/elrond-my-nfts-collection-dapp/index.html",
+    "static/css/main.c88f1bbb.chunk.css.map": "/elrond-my-nfts-collection-dapp/static/css/main.c88f1bbb.chunk.css.map",
+    "static/js/2.c7ae766e.chunk.js.LICENSE.txt": "/elrond-my-nfts-collection-dapp/static/js/2.c7ae766e.chunk.js.LICENSE.txt",
+    "static/media/bg-header.d80912b8.png": "/elrond-my-nfts-collection-dapp/static/media/bg-header.d80912b8.png",
+    "static/media/bg-header.e1c0b84b.jpg": "/elrond-my-nfts-collection-dapp/static/media/bg-header.e1c0b84b.jpg",
+    "static/media/custom.scss": "/elrond-my-nfts-collection-dapp/static/media/web.57f728b8.svg",
+    "static/media/hand-love.21c0d706.png": "/elrond-my-nfts-collection-dapp/static/media/hand-love.21c0d706.png",
+    "static/media/logo.6f267daa.jpg": "/elrond-my-nfts-collection-dapp/static/media/logo.6f267daa.jpg",
+    "static/media/sad.7397a352.svg": "/elrond-my-nfts-collection-dapp/static/media/sad.7397a352.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e406880.js",
-    "static/js/2.82690db7.chunk.js",
-    "static/css/main.73d3f17c.chunk.css",
+    "static/js/runtime-main.004b7663.js",
+    "static/js/2.c7ae766e.chunk.js",
+    "static/css/main.c88f1bbb.chunk.css",
     "static/js/main.56a95d9b.chunk.js"
   ]
 }
