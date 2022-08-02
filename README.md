@@ -1,1 +1,0 @@
-# elrond-my-nfts-collection-dapp

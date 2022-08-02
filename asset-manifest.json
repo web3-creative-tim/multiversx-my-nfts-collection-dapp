@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5e6534bd.chunk.css",
+    "main.js": "./static/js/main.56a95d9b.chunk.js",
+    "main.js.map": "./static/js/main.56a95d9b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.084de5d1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.084de5d1.js.map",
+    "static/js/2.798b7d8a.chunk.js": "./static/js/2.798b7d8a.chunk.js",
+    "static/js/2.798b7d8a.chunk.js.map": "./static/js/2.798b7d8a.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.5e6534bd.chunk.css.map": "./static/css/main.5e6534bd.chunk.css.map",
+    "static/js/2.798b7d8a.chunk.js.LICENSE.txt": "./static/js/2.798b7d8a.chunk.js.LICENSE.txt",
+    "static/media/bg-header.d80912b8.png": "./static/media/bg-header.d80912b8.png",
+    "static/media/bg-header.e1c0b84b.jpg": "./static/media/bg-header.e1c0b84b.jpg",
+    "static/media/custom.scss": "./static/media/web.57f728b8.svg",
+    "static/media/hand-love.21c0d706.png": "./static/media/hand-love.21c0d706.png",
+    "static/media/logo.6f267daa.jpg": "./static/media/logo.6f267daa.jpg",
+    "static/media/sad.7397a352.svg": "./static/media/sad.7397a352.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.084de5d1.js",
+    "static/js/2.798b7d8a.chunk.js",
+    "static/css/main.5e6534bd.chunk.css",
+    "static/js/main.56a95d9b.chunk.js"
+  ]
+}
