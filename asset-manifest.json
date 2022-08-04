@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.57c80fba.chunk.css",
-    "main.js": "./static/js/main.aef9a0b9.chunk.js",
-    "main.js.map": "./static/js/main.aef9a0b9.chunk.js.map",
+    "main.js": "./static/js/main.c35751ea.chunk.js",
+    "main.js.map": "./static/js/main.c35751ea.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.084de5d1.js",
     "runtime-main.js.map": "./static/js/runtime-main.084de5d1.js.map",
     "static/js/2.798b7d8a.chunk.js": "./static/js/2.798b7d8a.chunk.js",
@@ -13,7 +13,6 @@
     "static/media/bg-header-dashboard.f79436d5.jpg": "./static/media/bg-header-dashboard.f79436d5.jpg",
     "static/media/bg-header.f8895023.jpg": "./static/media/bg-header.f8895023.jpg",
     "static/media/custom.scss": "./static/media/web.57f728b8.svg",
-    "static/media/hand-love.21c0d706.png": "./static/media/hand-love.21c0d706.png",
     "static/media/logo.6f267daa.jpg": "./static/media/logo.6f267daa.jpg",
     "static/media/sad.7397a352.svg": "./static/media/sad.7397a352.svg"
   },
@@ -21,6 +20,6 @@
     "static/js/runtime-main.084de5d1.js",
     "static/js/2.798b7d8a.chunk.js",
     "static/css/main.57c80fba.chunk.css",
-    "static/js/main.aef9a0b9.chunk.js"
+    "static/js/main.c35751ea.chunk.js"
   ]
 }
