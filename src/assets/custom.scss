@@ -1,0 +1,214 @@
+.dapp-core-ui-component {
+  .btn_login_wrapper {
+    margin-bottom: 1rem !important;
+  }
+
+  .btn_login_wrapper,
+  .btn_login_noExtensionButtonContent {
+    display: flex;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    align-items: center;
+    background-color: transparent !important;
+    border-radius: 1.875rem !important;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 21px;
+      height: 18px;
+      margin-right: 14px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &.defi:before {
+      background-image: url('./img/login/defi.svg');
+    }
+
+    &.web:before {
+      background-image: url('./img/login/web.svg');
+    }
+
+    &.ledger:before {
+      background-image: url('./img/login/ledger.svg');
+    }
+
+    &.maiar:before {
+      background-image: url('./img/login/maiar.svg');
+    }
+
+    &.maiar {
+      margin-bottom: .5rem !important;
+    }
+
+    &.maiar,
+    &.ledger {
+      border: 1px solid;
+
+      &:hover {
+        opacity: .75;
+        box-shadow: none;
+        color: #12062b;
+      }
+    }
+
+    &.web .web:hover, 
+    &.ledger .ledger, 
+    &.maiar .maiar {
+      opacity: 1;
+    } 
+  }
+
+  .btn_login_noExtensionButtonWrapper {
+    width: 100%;
+    border-radius: 1.875rem !important; 
+
+    .defi:hover {
+      opacity: 1;
+    }
+  }
+
+  .btn_login_noExtensionButtonContent {
+    justify-content: start !important;
+
+    svg {
+      display: none;
+    }
+  }
+}
+
+.maiar .btn-light, 
+.ledger .btn-light { 
+  &,
+  &:hover {
+    background-color: transparent;
+    box-shadow: none !important;
+  }
+}
+
+.maiar {
+  .maiar.lead {
+   font-size: .875rem!important;
+  }
+}
+
+.ledger {
+   div p,
+  .lead {
+    font-size: .875rem!important;
+  }
+  .card {
+    box-shadow: none;
+  }
+
+  div p {
+    margin-bottom: 1.5rem!important;
+  }
+
+  div .btn[data-testid="connectBtn"] {
+    margin-bottom: 0;
+  }
+}
+
+.login-modal .modal-dialog {
+  min-width: 350px;
+}
+
+.collapse:not(.show).collapse-visible {
+  height: 0;
+  overflow: hidden;
+}
+
+.collapse-visible {
+  display: block !important;
+
+  &.collapsing {
+    transition: height .8s ease !important;
+  }
+}
+
+.collapse:not(.show).collapse-visible,
+.collapsing.collapse-visible {
+  min-height: 700px;
+}
+
+.card-nft:hover .card-header .hover-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(#12062b, .1);
+  border-radius: .75rem;
+}
+
+.card-nft:hover .btn-hover-nft {
+  opacity: 1 !important;
+  z-index: 10;
+  transform: translateY(-50%) !important ;
+  -webkit-transform: translateY(-50%) !important;
+}
+
+.btn-hover-nft {
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  top: 50%;
+}
+
+.collapse-visible:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 75px;
+  background-image: url('./img/blur.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-login {
+  max-width: 340px;
+  transition: opacity .25s ease-out;
+}
+
+.backdrop {
+  z-index: 4 !important;
+  transition: opacity .25s ease-out;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#000, .5);
+    position: absolute;
+  }
+}
+
+.hexagon-position {
+  top: -60px !important;
+}
+
+.btn-subscribe {
+  bottom: 30px;
+  right: 30px;
+}
+
+.disabled {
+  pointer-events: auto !important;
+  cursor: default !important;
+}
+
+.h-100-vh {
+  height: 100vh !important;
+}
+
+.min-vh-70 {
+  min-height: 70vh !important;
+}
