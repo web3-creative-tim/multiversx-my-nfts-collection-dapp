@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import brandLogo from "../../../assets/img/logo.jpg";
-import brandLogoMini from "../../../assets/img/logo-ct.jpg";
+import brandLogo from "../../../assets/img/logo.svg";
 import "../../../assets/custom.scss";
 import NavbarItems from "./navbarItems";
 import LoginModalContext from "../../LoginModal/loginModalContext";
@@ -21,36 +20,6 @@ const NavbarConnect = (props) => {
     return () => setShadow("shadow-none");
   }, []);
 
-
-  const [logo, setLogo] = useState(false);
-
-  const logoCheck = () => {
-    const width =
-      window.innerWidth ||
-      document.documentElement.clientWidth ||
-      document.body.clientWidth;
-
-    if (width <= 576) {
-      setLogo(true);
-    } else {
-      setLogo(false);
-    }
-  };
-
-  useEffect(() => {
-    logoCheck();
-
-    window.addEventListener(
-      "resize",
-      function() {
-        logoCheck();
-      },
-      true
-    );
-
-    return () => setLogo(false);
-  }, [logo]);
-
   return (
     <>
       <nav
@@ -64,9 +33,9 @@ const NavbarConnect = (props) => {
             rel="noreferrer"
           >
             <img
-              width={logo ? "120" : "210"}
+              width="110"
               alt="logo"
-              src={logo ? brandLogoMini : brandLogo}
+              src={brandLogo}
             />
           </a>
 
