@@ -2,7 +2,7 @@ import Dashboard from './pages/Dashboard';
 import Presentation from './pages/presentation';
 
 export const routeNames = {
-  dashboard: 'multiversx-my-nfts-collection-dapp/dashboard',
+  dashboard: '/multiversx-my-nfts-collection-dapp/dashboard',
   presentation: '/',
   walletconnect: '/walletconnect'
 }
