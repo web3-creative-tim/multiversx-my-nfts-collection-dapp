@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.9aab2e5b.chunk.css",
-    "main.js": "./static/js/main.6b4d0a9f.chunk.js",
-    "main.js.map": "./static/js/main.6b4d0a9f.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.8b7e3088.js",
-    "runtime-main.js.map": "./static/js/runtime-main.8b7e3088.js.map",
-    "static/js/2.9ef52f7e.chunk.js": "./static/js/2.9ef52f7e.chunk.js",
-    "static/js/2.9ef52f7e.chunk.js.map": "./static/js/2.9ef52f7e.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.9aab2e5b.chunk.css.map": "./static/css/main.9aab2e5b.chunk.css.map",
-    "static/js/2.9ef52f7e.chunk.js.LICENSE.txt": "./static/js/2.9ef52f7e.chunk.js.LICENSE.txt",
-    "static/media/bg-header-dashboard.02925882.jpg": "./static/media/bg-header-dashboard.02925882.jpg",
-    "static/media/bg-header.f8895023.jpg": "./static/media/bg-header.f8895023.jpg",
-    "static/media/custom.scss": "./static/media/web.57f728b8.svg",
-    "static/media/logo.4de5e473.svg": "./static/media/logo.4de5e473.svg",
-    "static/media/sad.7397a352.svg": "./static/media/sad.7397a352.svg"
+    "main.css": "/multiversx-my-nfts-collection-dapp/static/css/main.edd730e3.chunk.css",
+    "main.js": "/multiversx-my-nfts-collection-dapp/static/js/main.0d137815.chunk.js",
+    "main.js.map": "/multiversx-my-nfts-collection-dapp/static/js/main.0d137815.chunk.js.map",
+    "runtime-main.js": "/multiversx-my-nfts-collection-dapp/static/js/runtime-main.9f11432a.js",
+    "runtime-main.js.map": "/multiversx-my-nfts-collection-dapp/static/js/runtime-main.9f11432a.js.map",
+    "static/js/2.49476e91.chunk.js": "/multiversx-my-nfts-collection-dapp/static/js/2.49476e91.chunk.js",
+    "static/js/2.49476e91.chunk.js.map": "/multiversx-my-nfts-collection-dapp/static/js/2.49476e91.chunk.js.map",
+    "index.html": "/multiversx-my-nfts-collection-dapp/index.html",
+    "static/css/main.edd730e3.chunk.css.map": "/multiversx-my-nfts-collection-dapp/static/css/main.edd730e3.chunk.css.map",
+    "static/js/2.49476e91.chunk.js.LICENSE.txt": "/multiversx-my-nfts-collection-dapp/static/js/2.49476e91.chunk.js.LICENSE.txt",
+    "static/media/bg-header-dashboard.02925882.jpg": "/multiversx-my-nfts-collection-dapp/static/media/bg-header-dashboard.02925882.jpg",
+    "static/media/bg-header.f8895023.jpg": "/multiversx-my-nfts-collection-dapp/static/media/bg-header.f8895023.jpg",
+    "static/media/custom.scss": "/multiversx-my-nfts-collection-dapp/static/media/web.57f728b8.svg",
+    "static/media/logo.4de5e473.svg": "/multiversx-my-nfts-collection-dapp/static/media/logo.4de5e473.svg",
+    "static/media/sad.7397a352.svg": "/multiversx-my-nfts-collection-dapp/static/media/sad.7397a352.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b7e3088.js",
-    "static/js/2.9ef52f7e.chunk.js",
-    "static/css/main.9aab2e5b.chunk.css",
-    "static/js/main.6b4d0a9f.chunk.js"
+    "static/js/runtime-main.9f11432a.js",
+    "static/js/2.49476e91.chunk.js",
+    "static/css/main.edd730e3.chunk.css",
+    "static/js/main.0d137815.chunk.js"
   ]
 }
