@@ -3,7 +3,7 @@
   "version": "0.1.0-beta",
   "author": "Creative Tim",
   "license": "GPL-3.0-or-later",
-  "homepage": ".",
+  "homepage": "https://web3.creative-tim.com/multiversx-my-nfts-collection-dapp",
   "dependencies": {
     "@elrondnetwork/dapp-core": "^1.1.21",
     "@elrondnetwork/dapp-utils": "0.1.3",
