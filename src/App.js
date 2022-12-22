@@ -8,7 +8,7 @@ import { environment } from "./config";
 
 const App = () => {
   return (
-    <Router basename="/multiversx-my-nfts-collection-dapp">
+    <Router basename="/multiversx-my-nfts-collection-dapp/">
       <DappProvider
         environment={environment}
         customNetworkConfig={{ name: "customConfig", apiTimeout: 6000 }}
