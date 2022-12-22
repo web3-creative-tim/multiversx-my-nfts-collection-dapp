@@ -73,7 +73,7 @@ const LoginButton = () => {
           />
           <WebWalletLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"Elrond Web wallet"}
+            loginButtonText={"MultiversX Web wallet"}
             className={"web btn-outline-dark text-dark border-dark btn_login"}
           />
           <LedgerLoginButton
