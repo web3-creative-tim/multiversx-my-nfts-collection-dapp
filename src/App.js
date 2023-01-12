@@ -1,5 +1,5 @@
 import React from "react";
-import { DappProvider } from "@elrondnetwork/dapp-core";
+import { DappProvider } from "@multiversx/sdk-dapp/wrappers";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Layout from "./components/Layout";
 import PageNotFound from "./pages/PageNotFound";
