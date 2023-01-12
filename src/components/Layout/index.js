@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AuthenticatedRoutesWrapper } from "@elrondnetwork/dapp-core";
+import { AuthenticatedRoutesWrapper } from "@multiversx/sdk-dapp/wrappers";
 import routes from "../../routes";
 import LoginModalContext from "../../components/LoginModal/loginModalContext";
 
