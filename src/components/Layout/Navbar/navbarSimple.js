@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import brandLogo from "../../../assets/img/logo.svg";
 import '../../../assets/custom.scss';
-import { logout } from "@elrondnetwork/dapp-core";
+import { logout } from "@multiversx/sdk-dapp/utils";
 import NavbarItems from "./navbarItems";
 
 const NavbarSimple = (props) => {
