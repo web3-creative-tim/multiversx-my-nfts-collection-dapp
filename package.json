@@ -5,19 +5,16 @@
   "license": "GPL-3.0-or-later",
   "homepage": ".",
   "dependencies": {
-    "@elrondnetwork/dapp-core": "^1.1.21",
-    "@elrondnetwork/dapp-utils": "0.1.3",
-    "@elrondnetwork/erdjs": "10.2.5",
-    "axios": "0.27.2",
-    "moment": "2.29.3",
-    "react": "17.0.2",
-    "react-bootstrap": "2.4.0",
-    "react-dom": "17.0.2",
-    "react-lazyload": "^3.2.0",
-    "react-router-dom": "6.2.1",
-    "react-scripts": "^4.0.3",
-    "sass": "^1.51.0",
-    "web-vitals": "2.1.4"
+    "@multiversx/sdk-dapp": "^2.2.9",
+    "axios": "1.2.2",
+    "moment": "2.29.4",
+    "react": "18.2.0",
+    "react-bootstrap": "2.7.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.6.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.57.1",
+    "web-vitals": "3.1.1"
   },
   "scripts": {
     "dev": "npm run start-devnet",
@@ -52,8 +49,8 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "5.16.4",
-    "@testing-library/react": "13.2.0",
-    "@testing-library/user-event": "14.2.0"
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.4.3"
   }
 }
