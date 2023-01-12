@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
-import { DappUI, useGetLoginInfo } from "@elrondnetwork/dapp-core";
+import * as DappUI from "@multiversx/sdk-dapp/UI";
+import { useGetLoginInfo } from '@multiversx/sdk-dapp/hooks/account';
 import { routeNames } from "../../routes";
 import LoginModalContext from "./loginModalContext";
 
