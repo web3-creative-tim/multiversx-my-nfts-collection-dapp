@@ -1,6 +1,6 @@
 /* eslint-disable array-callback-return */
 import React, { useState, useEffect } from "react";
-import { useGetAccountInfo } from "@elrondnetwork/dapp-core";
+import { useGetAccountInfo } from '@multiversx/sdk-dapp/hooks/account';
 import Modal from "react-bootstrap/Modal";
 import NoNFT from "../../components/NoNFT";
 import "../../assets/loading-dot.css";
