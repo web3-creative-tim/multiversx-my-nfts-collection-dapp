@@ -1,81 +1,78 @@
-.dapp-core-ui-component {
-  .btn_login_wrapper {
-    margin-bottom: 1rem !important;
+.btn_login_wrapper {
+  margin-bottom: 1rem !important;
+}
+
+.dapp-core-component__loginButtonStyles__login-text,
+.dapp-core-component__extensionLoginButton-styles__noExtensionButtonContent {
+  font-weight: 600;
+  font-size: .875rem;
+  color: #212529 !important;
+}
+
+.dapp-core-component__extensionLoginButton-styles__noExtensionButtonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.dapp-core-component__extensionLoginButton-styles__no-extension-button-title {
+  margin-right: .5rem;
+}
+
+.btn_login {
+  display: flex !important;
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  align-items: center;
+  background-color: transparent !important;
+  border-radius: 1.875rem !important;
+  padding: .6875rem 1.5rem !important;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 18px;
+    margin-right: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
-  .btn_login_wrapper,
-  .btn_login_noExtensionButtonContent {
-    display: flex;
-    width: 100%;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    align-items: center;
-    background-color: transparent !important;
-    border-radius: 1.875rem !important;
-
-    &:before {
-      content: "";
-      display: inline-block;
-      width: 21px;
-      height: 18px;
-      margin-right: 14px;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-
-    &.defi:before {
-      background-image: url('./img/login/defi.svg');
-    }
-
-    &.web:before {
-      background-image: url('./img/login/web.svg');
-    }
-
-    &.ledger:before {
-      background-image: url('./img/login/ledger.svg');
-    }
-
-    &.maiar:before {
-      background-image: url('./img/login/maiar.svg');
-    }
-
-    &.maiar {
-      margin-bottom: .5rem !important;
-    }
-
-    &.maiar,
-    &.ledger {
-      border: 1px solid;
-
-      &:hover {
-        opacity: .75;
-        box-shadow: none;
-        color: #12062b;
-      }
-    }
-
-    &.web .web:hover, 
-    &.ledger .ledger, 
-    &.maiar .maiar {
-      opacity: 1;
-    } 
+  &.defi:before {
+    background-image: url('./img/login/defi.svg');
   }
 
-  .btn_login_noExtensionButtonWrapper {
-    width: 100%;
-    border-radius: 1.875rem !important; 
-
-    .defi:hover {
-      opacity: 1;
-    }
+  &.web:before {
+    background-image: url('./img/login/web.svg');
   }
 
-  .btn_login_noExtensionButtonContent {
-    justify-content: start !important;
+  &.ledger:before {
+    background-image: url('./img/login/ledger.svg');
+  }
 
-    svg {
-      display: none;
-    }
+  &.maiar:before {
+    background-image: url('./img/login/maiar.svg');
+  }
+
+  &.maiar {
+    margin-bottom: .5rem !important;
+  }
+
+  &.web .web:hover, 
+  &.ledger .ledger, 
+  &.maiar .maiar {
+    opacity: 1;
+  } 
+}
+
+.dapp-extension-login {
+  width: 100%;
+  border-radius: 1.875rem !important; 
+
+  .defi:hover {
+    opacity: 1;
   }
 }
 

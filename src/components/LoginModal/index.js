@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
-import { DappUI, useGetLoginInfo } from "@elrondnetwork/dapp-core";
+import * as DappUI from "@multiversx/sdk-dapp/UI";
+import { useGetLoginInfo } from '@multiversx/sdk-dapp/hooks/account';
 import { routeNames } from "../../routes";
 import LoginModalContext from "./loginModalContext";
 
@@ -68,23 +69,23 @@ const LoginButton = () => {
 
           <ExtensionLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"Maiar Extension"}
-            className={"defi btn-outline-dark border-dark btn_login"}
+            loginButtonText={"MultiversX DeFi Wallet"}
+            buttonClassName={"defi mb-2 btn btn-outline-dark border-dark btn_login"}
           />
-          <WebWalletLoginButton
+          <WalletConnectLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"MultiversX Web wallet"}
-            className={"web btn-outline-dark text-dark border-dark btn_login"}
+            loginButtonText={"xPortal Mobile Wallet"}
+            buttonClassName={"maiar btn btn-outline-dark text-dark border-dark btn_login"}
           />
           <LedgerLoginButton
             loginButtonText={"Ledger"}
             callbackRoute={routeNames.dashboard}
-            className={"ledger text-dark shadow-none btn_login"}
+            buttonClassName={"ledger mb-2 btn btn-outline-dark text-dark border-dark btn_login"}
           />
-          <WalletConnectLoginButton
+          <WebWalletLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"Maiar"}
-            className={"maiar text-dark shadow-none btn_login"}
+            loginButtonText={"MultiversX Web wallet"}
+            buttonClassName={"web mb-2 btn btn-outline-dark text-dark border-dark btn_login"}
           />
         </div>
       </div>

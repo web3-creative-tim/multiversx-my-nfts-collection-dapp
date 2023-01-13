@@ -1,5 +1,5 @@
 import React from "react";
-import { DappProvider } from "@elrondnetwork/dapp-core";
+import { DappProvider } from "@multiversx/sdk-dapp/wrappers";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Layout from "./components/Layout";
 import PageNotFound from "./pages/PageNotFound";
@@ -19,7 +19,7 @@ const App = () => {
               <Route
                 path={route.path}
                 key={"route-key-" + index}
-                element={<route.component />}
+                element={React.createElement(route.component)}
               />
             ))}
             <Route path="*" element={<PageNotFound />} />
