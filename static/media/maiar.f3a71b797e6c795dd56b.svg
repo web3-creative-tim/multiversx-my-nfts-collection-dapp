@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.5" height="20" viewBox="0 0 17.5 28" class="maiar-symbol maiar-app"><defs><style>
+      .cls-maiar-app-1 {
+        fill: #12062b;
+      }
+
+      .cls-maiar-app-2 {
+        fill: #fff;
+      }
+    </style></defs><g transform="translate(11007 -18884.001)"><path class="cls-maiar-app-1" d="M14.875-21H2.625A2.626,2.626,0,0,0,0-18.375V4.375A2.626,2.626,0,0,0,2.625,7h12.25A2.626,2.626,0,0,0,17.5,4.375v-22.75A2.626,2.626,0,0,0,14.875-21Z" transform="translate(-11007 18905)"></path><g transform="translate(-11002.75 18892.168)"><g transform="translate(0 0)"><path class="cls-maiar-app-2" d="M2.255,6.752l.008-.01L0,9V0L4.5,4.5,9,0V9L6.75,6.752,4.5,9Z" transform="translate(0 0)"></path></g></g><circle class="cls-maiar-app-2" cx="1.5" cy="1.5" r="1.5" transform="translate(-10999.75 18906.498)"></circle></g></svg>

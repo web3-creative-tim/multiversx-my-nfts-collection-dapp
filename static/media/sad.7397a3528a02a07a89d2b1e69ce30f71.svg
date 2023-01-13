@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sad</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.603389922">
+        <g id="My-Collection-empty" transform="translate(-727.000000, -764.000000)">
+            <g id="sad" transform="translate(730.000000, 767.000000)">
+                <circle id="Oval" stroke="#576480" stroke-width="2" stroke-linecap="square" cx="19.375" cy="31.875" r="3.125"></circle>
+                <circle id="Oval" stroke="#576480" stroke-width="2" stroke-linecap="square" cx="50.625" cy="31.875" r="3.125"></circle>
+                <circle id="Oval" stroke="#576480" stroke-width="5" stroke-linecap="square" cx="35" cy="35" r="35"></circle>
+                <path d="M48,55 C45.3213907,50.3556941 40.3676421,47.4941618 35.00625,47.4941618 C29.6448579,47.4941618 24.6911093,50.3556941 22.0125,55" id="Path" stroke="#576480" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" fill="#576480" fill-rule="nonzero" cx="19.375" cy="31.875" r="3.125"></circle>
+                <circle id="Oval" fill="#576480" fill-rule="nonzero" cx="50.625" cy="31.875" r="3.125"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
