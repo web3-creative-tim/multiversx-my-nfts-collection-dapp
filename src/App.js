@@ -19,7 +19,7 @@ const App = () => {
               <Route
                 path={route.path}
                 key={"route-key-" + index}
-                element={<route.component />}
+                element={React.createElement(route.component)}
               />
             ))}
             <Route path="*" element={<PageNotFound />} />
