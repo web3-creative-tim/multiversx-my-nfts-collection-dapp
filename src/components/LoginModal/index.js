@@ -69,23 +69,23 @@ const LoginButton = () => {
 
           <ExtensionLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"Maiar Extension"}
+            loginButtonText={"MultiversX DeFi Wallet"}
             buttonClassName={"defi mb-2 btn btn-outline-dark border-dark btn_login"}
           />
-          <WebWalletLoginButton
+          <WalletConnectLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"MultiversX Web wallet"}
-            buttonClassName={"web mb-2 btn btn-outline-dark text-dark border-dark btn_login"}
+            loginButtonText={"xPortal Mobile Wallet"}
+            buttonClassName={"maiar btn btn-outline-dark text-dark border-dark btn_login"}
           />
           <LedgerLoginButton
             loginButtonText={"Ledger"}
             callbackRoute={routeNames.dashboard}
             buttonClassName={"ledger mb-2 btn btn-outline-dark text-dark border-dark btn_login"}
           />
-          <WalletConnectLoginButton
+          <WebWalletLoginButton
             callbackRoute={routeNames.dashboard}
-            loginButtonText={"Maiar"}
-            buttonClassName={"maiar btn btn-outline-dark text-dark border-dark btn_login"}
+            loginButtonText={"MultiversX Web wallet"}
+            buttonClassName={"web mb-2 btn btn-outline-dark text-dark border-dark btn_login"}
           />
         </div>
       </div>
