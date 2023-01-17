@@ -5,6 +5,7 @@
   "license": "GPL-3.0-or-later",
   "homepage": ".",
   "dependencies": {
+    "@ct-web3/multivers-ui": "^1.0.0-alpha",
     "@multiversx/sdk-dapp": "^2.2.9",
     "axios": "1.2.2",
     "moment": "2.29.4",
