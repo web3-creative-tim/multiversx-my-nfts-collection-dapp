@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import PageNotFound from "./pages/PageNotFound";
 import routes from "./routes";
 import { environment } from "./config";
+import "@ct-web3/multivers-ui/dist/css/multivers-ui.min.css";
 
 const App = () => {
   return (
