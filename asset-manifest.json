@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.8c7ac0ac.css",
-    "main.js": "./static/js/main.63cf5ed4.js",
+    "main.js": "./static/js/main.6b31207a.js",
     "static/media/bg-header-dashboard.jpg": "./static/media/bg-header-dashboard.0292588273d745d6cbf1.jpg",
     "static/media/bg-header.jpg": "./static/media/bg-header.f889502385a1373fbdc5.jpg",
     "static/media/blur.png": "./static/media/blur.6bdc1a729a5d652656aa.png",
@@ -15,6 +15,6 @@
   },
   "entrypoints": [
     "static/css/main.8c7ac0ac.css",
-    "static/js/main.63cf5ed4.js"
+    "static/js/main.6b31207a.js"
   ]
 }
