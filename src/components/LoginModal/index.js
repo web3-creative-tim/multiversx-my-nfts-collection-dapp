@@ -47,7 +47,7 @@ const LoginButton = () => {
   return (
     <>
       <div
-        className={`d-flex position-fixed w-100 h-100 align-items-center backdrop opacity-0 ${
+        className={`d-flex position-fixed w-100 h-100 align-items-center backdrop opacity-0  ${
           !show ? "d-none" : ""
         }`}
         onClick={handleClose}
