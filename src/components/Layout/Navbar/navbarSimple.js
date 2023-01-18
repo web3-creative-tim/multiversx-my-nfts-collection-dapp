@@ -7,7 +7,7 @@ import NavbarItems from "./navbarItems";
 
 const NavbarSimple = (props) => {
   const handleLogout = () => {
-    logout(`${window.location.origin}/multiversx-my-nfts-collection-dapp/`);
+    logout(`${window.location.origin}`);
   };
 
   return ( <> 
