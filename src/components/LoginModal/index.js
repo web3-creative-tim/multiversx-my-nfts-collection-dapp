@@ -18,7 +18,7 @@ const LoginButton = () => {
 
   useEffect(() => {
     if (isLoggedIn) {
-      window.location.href = '/multiversx-my-nfts-collection-dapp' + routeNames.dashboard;
+      window.location.href = routeNames.dashboard;
     }
   }, [isLoggedIn])
 
