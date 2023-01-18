@@ -9,7 +9,7 @@ import "@ct-web3/multivers-ui/dist/css/multivers-ui.min.css";
 
 const App = () => {
   return (
-    <Router basename="/multiversx-my-nfts-collection-dapp/">
+    <Router>
       <DappProvider
         environment={environment}
         customNetworkConfig={{ name: "customConfig", apiTimeout: 6000 }}
